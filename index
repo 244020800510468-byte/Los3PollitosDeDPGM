@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CECyTE - Liberación semestral</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="header">
+        <div class="brand">
+          <div class="brand-mark" aria-hidden="true">CE</div>
+          <div class="brand-text">
+            <div class="brand-title">CECyTE</div>
+            <div class="brand-subtitle">Liberación semestral</div>
+          </div>
+        </div>
+      </header>
+      <section id="app" class="container" aria-live="polite"></section>
+      <footer class="footer">
+        <span class="footer-muted">Aplicación demo sin servidor (usa `localStorage`).</span>
+      </footer>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
